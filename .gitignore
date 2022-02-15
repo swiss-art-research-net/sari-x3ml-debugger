@@ -1,1 +1,6 @@
 .env
+.ipynb_checkpoints/
+input/
+output/
+mapping/
+notebooks/
