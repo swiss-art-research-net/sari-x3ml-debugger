@@ -1,0 +1,10 @@
+version: "3"
+services:
+    x3ml-debuggger:
+        build: ./docker
+        image: swissartresearx/x3ml-debugger
+        container_name: x3ml-debugger
+        volumes:
+            - ./:/workdir
+        ports:
+            - ${PORT_JUPYTER}:8888
