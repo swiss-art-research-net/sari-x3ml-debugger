@@ -5,7 +5,7 @@ import subprocess
 from lxml import etree
 from tqdm import tqdm
 
-inputMappingFile = './mapping/mappings-zbz.x3ml'
+inputMappingFile = './mapping/mappings.x3ml'
 generatorFile = './mapping/generator-policy.xml'
 
 inputDir = './input/'
